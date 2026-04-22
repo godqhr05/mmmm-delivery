@@ -62000,14 +62000,14 @@ r=A.bW(q,null,r).w
 q=p.d
 if(q!=null)q.aP()
 p.d=A.aol(B.k2,new A.a2O(p,s.a.a,r.a.b))},
-T(a){var s,r,q,p,o,n,m=this,l=null,k=new A.a2C(),j=A.amJ(0,A.a8x("assets/images/background.png",new A.a2D(),B.wx)),i=k.$3(B.wh,"\ud83d\udc9c \ub178\uc544",B.pF),h=k.$3(B.wc,"\ud83d\udc99 \uc608\uc900",B.pG),g=k.$3(B.wf,"\ud83d\udc97 \ubc24\ube44",B.pH),f=k.$3(B.wg,"\u2764\ufe0f \uc740\ud638",B.pE),e=k.$3(B.we,"\ud83d\udda4 \ud558\ubbfc",B.pI),d=J.aco(3,t.l7)
+T(a){var s,r,q,p,o,n,m=this,l=null,k=new A.a2C(),j=A.amJ(0,A.a8x("assets/images/background.png",new A.a2D(),B.wx)),i=k.$3(B.wg,"\ud83d\udc9c \ub178\uc544",B.pF),h=k.$3(B.wc,"\ud83d\udc99 \uc608\uc900",B.pG),g=k.$3(B.wh,"\ud83d\udc97 \ubc24\ube44",B.pH),f=k.$3(B.we,"\u2764\ufe0f \uc740\ud638",B.pE),e=k.$3(B.wf,"\ud83d\udda4 \ud558\ubbfc",B.pI),d=J.aco(3,t.l7)
 for(s=m.y,r=0;r<3;++r)d[r]=A.alo(r<s?B.Aa:B.Ab,B.jR,l,30)
-s=A.W2(l,A.ads(d),l,l,23,l,90,l)
+s=A.W2(l,A.ads(d),l,l,23,l,30,l)
 q=A.iu("SCORE : "+m.w,B.Kt)
 p=m.x
 o=B.c.ao(229.5)
 n=t.d
-p=A.d([j,i,h,g,f,e,s,A.W2(l,A.NE(A.d([q,B.In,A.iu("BEST : "+p,A.f7(l,l,A.aX(o,B.i.F()>>>16&255,B.i.F()>>>8&255,B.i.F()&255),l,l,l,l,l,l,l,l,16,l,l,B.W,l,l,!0,l,l,l,l,l,l,l,l))],n),B.c2,B.el),l,l,l,20,90,l)],n)
+p=A.d([j,i,h,g,f,e,s,A.W2(l,A.NE(A.d([q,B.In,A.iu("BEST : "+p,A.f7(l,l,A.aX(o,B.i.F()>>>16&255,B.i.F()>>>8&255,B.i.F()&255),l,l,l,l,l,l,l,l,16,l,l,B.W,l,l,!0,l,l,l,l,l,l,l,l))],n),B.c2,B.el),l,l,l,20,25,l)],n)
 q=m.Q
 s=A.Z(q).h("ac<1,iV>")
 j=A.X(new A.ac(q,new A.a2E(),s),s.h("aq.E"))
@@ -62060,7 +62060,7 @@ A.a2M.prototype={
 $0(){var s,r,q,p,o,n=this.a
 if(++n.as>=n.at){n.as=0
 n.Q.push(new A.eT(n.z[B.xF.a4s(5)],this.b/2-45,-50,!1,0))
-n.at=Math.max(15,60-B.h.eh(n.w,15))}s=Math.min(16,8+n.w/150)
+n.at=Math.max(15,60-B.h.eh(n.w,15))}s=Math.min(16,8+n.w/500)
 for(r=n.Q,q=r.length-1,p=this.c-100;q>=0;--q){o=r[q]
 if(!o.d)if((o.c+=s)>p){B.b.hE(r,q)
 if(--n.y<=0){n.y=0
@@ -64195,10 +64195,10 @@ B.at=new A.cl(0,0)
 B.wb=new A.cl(0,1)
 B.wc=new A.cl(0,-1)
 B.wd=new A.cl(1,0)
-B.we=new A.cl(1,1)
-B.wf=new A.cl(1,-1)
-B.wg=new A.cl(-1,1)
-B.wh=new A.cl(-1,-1)
+B.we=new A.cl(-1,0.85)
+B.wf=new A.cl(1,0.85)
+B.wg=new A.cl(-1,-0.7)
+B.wh=new A.cl(1,-0.7)
 B.iP=new A.z7(0,"normal")
 B.iQ=new A.z7(1,"preserve")
 B.P=new A.fY(0,"dismissed")
